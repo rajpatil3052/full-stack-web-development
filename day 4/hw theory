@@ -1,0 +1,50 @@
+Q4: What is the difference between <ul> and <ol>? Give a real-world example of when you would use each one. Also explain why navigation menus use type="none" instead of just deleting the ul tag.
+
+Answer:
+<ul> (Unordered List) displays items with bullet points where the order does not matter.
+Example: Navigation menu, shopping list.
+
+<ol> (Ordered List) displays items with numbers where the order matters.
+Example: Recipe steps, rankings, instructions.
+
+Navigation menus use type="none" (or CSS list-style:none) instead of deleting the <ul> because the list structure helps accessibility and keeps the HTML semantic while only hiding the bullets.
+
+
+Q5: What is the difference between <th> and <td>? Why use <th> instead of making <td> bold with CSS? What does a screen reader do differently with each?
+
+Answer:
+<th> is a table header cell.
+<td> is a normal table data cell.
+
+Using <th> gives semantic meaning to the table structure.
+Making <td> bold with CSS only changes appearance, not meaning.
+
+Screen readers recognize <th> as a header and announce it to help users understand the table.
+<td> is read as regular table data.
+
+
+
+Q6: What is the difference between method="GET" and method="POST"? Why should you never use GET for a login form? Include an example URL showing what GET looks like in the browser address bar.
+
+Answer:
+GET sends form data in the URL.
+Example:
+https://example.com/login?username=raj&password=123
+
+POST sends form data in the request body.
+
+GET should not be used for login forms because usernames and passwords become visible in the URL, browser history, and server logs.
+
+POST is safer because the data is not shown in the address bar.
+-->
+
+
+Q7: Why is <label for="id"> important and why is placeholder not a replacement for it? Include two reasons — one about accessibility, one about UX.
+
+Answer:
+<label> is important because screen readers use it to identify form fields, improving accessibility.
+
+<label> also improves user experience because clicking the label focuses the related input field.
+
+Placeholder is not a replacement because it disappears when the user starts typing.
+Labels remain visible and clearly identify the field.

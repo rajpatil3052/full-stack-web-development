@@ -1,0 +1,33 @@
+q3 difference between tag, element and attribute
+<!--
+Tag:
+A tag is written inside angle brackets.
+Example: <p>
+
+Element:
+An element includes opening tag, content, and closing tag.
+Example: <p>Hello</p>
+
+Attribute:
+An attribute gives extra information to a tag.
+Example: href in <a href="https://google.com">
+-->
+q4 difference between block-level <div> and inline elements <span>
+<!--
+<div> is a block-level element.
+It takes full width and starts from a new line.
+
+<span> is an inline element.
+It only takes required width and stays in same line.
+
+<div> is used for webpage sections/layout.
+<span> is used for styling small text parts.
+-->
+q5 why you always add rel="noopener noreferrer" when using target="_blank"?
+ What security risk does it prevent?
+<!--
+rel="noopener noreferrer" is used with target="_blank".
+
+It improves security and prevents the new webpage
+from accessing or controlling the original webpage.
+-->

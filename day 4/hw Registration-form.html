@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="18" max="60">
+
+        <br><br>
+
+        <label for="phone">Mobile Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+
+        <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <label for="aadhar">Aadhaar Number</label>
+        <input type="text"
+               id="aadhar"
+               name="aadhar"
+               pattern="[0-9]{12}"
+               minlength="12"
+               maxlength="12"
+               required>
+
+        <br><br>
+
+        <!-- Datalist -->
+        <label for="language">Preferred Programming Language</label>
+        <input list="languages" id="language" name="language">
+
+        <datalist id="languages">
+            <option value="C">
+            <option value="C++">
+            <option value="Java">
+            <option value="Python">
+            <option value="JavaScript">
+        </datalist>
+
+        <br><br>
+
+        <!-- Range Slider -->
+        <label for="experience">Experience (0-10 years)</label>
+        <input type="range"
+               id="experience"
+               name="experience"
+               min="0"
+               max="10">
+
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="source">How did you hear about us?</label>
+        <select id="source" name="source">
+            <option>Google</option>
+            <option>YouTube</option>
+            <option>Instagram</option>
+            <option>Friend</option>
+            <option>College</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>

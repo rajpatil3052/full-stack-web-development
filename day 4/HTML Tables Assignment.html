@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tables Assignment</title>
+</head>
+<body>
+
+    <h1>HTML Tables</h1>
+
+    <!-- (a) Student Marks Table -->
+    <table border="1">
+        <caption>Student Marks Report</caption>
+
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Raj</td>
+                <td>85</td>
+                <td>90</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rahul</td>
+                <td>78</td>
+                <td>82</td>
+                <td>160</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Priya</td>
+                <td>92</td>
+                <td>88</td>
+                <td>180</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Class Average</td>
+                <td>171.67</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+
+    <!-- (b) Colspan Table -->
+    <table border="1">
+        <caption>Daily Schedule with Lunch Break</caption>
+
+        <tr>
+            <th>Time</th>
+            <th>Subject</th>
+            <th>Teacher</th>
+        </tr>
+
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>HTML</td>
+            <td>Mr. Sharma</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center">
+                Lunch Break
+            </td>
+        </tr>
+
+        <tr>
+            <td>1:00 - 2:00</td>
+            <td>CSS</td>
+            <td>Ms. Patel</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- (c) Rowspan Table -->
+    <table border="1">
+        <caption>Frontend and Backend Learning Plan</caption>
+
+        <tr>
+            <th>Category</th>
+            <th>Week</th>
+            <th>Topic</th>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Frontend</td>
+            <td>Week 1</td>
+            <td>HTML Basics</td>
+        </tr>
+        <tr>
+            <td>Week 2</td>
+            <td>CSS Styling</td>
+        </tr>
+        <tr>
+            <td>Week 3</td>
+            <td>JavaScript</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Backend</td>
+            <td>Week 4</td>
+            <td>Node.js</td>
+        </tr>
+        <tr>
+            <td>Week 5</td>
+            <td>Database</td>
+        </tr>
+        <tr>
+            <td>Week 6</td>
+            <td>API Development</td>
+        </tr>
+    </table>
+
+</body>
+</html>

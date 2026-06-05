@@ -1,0 +1,12 @@
+Difference between <ul> and <ol>:
+
+<ul> means Unordered List.
+It shows bullet points and is used when order does not matter.
+Example: Navigation menu, shopping list.
+
+<ol> means Ordered List.
+It shows numbering or letters and is used when order matters.
+Example: Steps to build a website, ranking list.
+
+Navigation menus use type="none" because the menu is still semantically a list.
+Only the bullets are hidden using CSS instead of removing the <ul> tag.
